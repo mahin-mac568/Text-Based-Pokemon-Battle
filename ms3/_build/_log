@@ -1,0 +1,40 @@
+### Starting build.
+# Target: main.ml.depends, tags: { package(ANSITerminal), package(ounit2), extension:ml, file:main.ml, ocaml, ocamldep, quiet, thread, traverse, use_menhir }
+ocamlfind ocamldep -package ounit2 -package ANSITerminal -modules main.ml > main.ml.depends
+# Target: battle.mli.depends, tags: { package(ANSITerminal), package(ounit2), extension:mli, file:battle.mli, ocaml, ocamldep, quiet, thread, traverse, use_menhir }
+ocamlfind ocamldep -package ounit2 -package ANSITerminal -modules battle.mli > battle.mli.depends
+# Target: items.mli.depends, tags: { package(ANSITerminal), package(ounit2), extension:mli, file:items.mli, ocaml, ocamldep, quiet, thread, traverse, use_menhir }
+ocamlfind ocamldep -package ounit2 -package ANSITerminal -modules items.mli > items.mli.depends
+# Target: pkmn.mli.depends, tags: { package(ANSITerminal), package(ounit2), extension:mli, file:pkmn.mli, ocaml, ocamldep, quiet, thread, traverse, use_menhir }
+ocamlfind ocamldep -package ounit2 -package ANSITerminal -modules pkmn.mli > pkmn.mli.depends
+# Target: items.cmi, tags: { package(ANSITerminal), package(ounit2), byte, compile, extension:mli, file:items.mli, interf, ocaml, quiet, thread, traverse, use_menhir }
+ocamlfind ocamlc -c -thread -package ounit2 -package ANSITerminal -o items.cmi items.mli
+# Target: pkmn.cmi, tags: { package(ANSITerminal), package(ounit2), byte, compile, extension:mli, file:pkmn.mli, interf, ocaml, quiet, thread, traverse, use_menhir }
+ocamlfind ocamlc -c -thread -package ounit2 -package ANSITerminal -o pkmn.cmi pkmn.mli
+# Target: command.mli.depends, tags: { package(ANSITerminal), package(ounit2), extension:mli, file:command.mli, ocaml, ocamldep, quiet, thread, traverse, use_menhir }
+ocamlfind ocamldep -package ounit2 -package ANSITerminal -modules command.mli > command.mli.depends
+# Target: battle.cmi, tags: { package(ANSITerminal), package(ounit2), byte, compile, extension:mli, file:battle.mli, interf, ocaml, quiet, thread, traverse, use_menhir }
+ocamlfind ocamlc -c -thread -package ounit2 -package ANSITerminal -o battle.cmi battle.mli
+# Target: command.cmi, tags: { package(ANSITerminal), package(ounit2), byte, compile, extension:mli, file:command.mli, interf, ocaml, quiet, thread, traverse, use_menhir }
+ocamlfind ocamlc -c -thread -package ounit2 -package ANSITerminal -o command.cmi command.mli
+# Target: main.cmo, tags: { package(ANSITerminal), package(ounit2), byte, compile, extension:cmo, extension:ml, file:main.cmo, file:main.ml, implem, ocaml, quiet, thread, traverse, use_menhir }
+ocamlfind ocamlc -c -thread -package ounit2 -package ANSITerminal -o main.cmo main.ml
+# Target: battle.ml.depends, tags: { package(ANSITerminal), package(ounit2), extension:ml, file:battle.ml, ocaml, ocamldep, quiet, thread, traverse, use_menhir }
+ocamlfind ocamldep -package ounit2 -package ANSITerminal -modules battle.ml > battle.ml.depends
+# Target: command.ml.depends, tags: { package(ANSITerminal), package(ounit2), extension:ml, file:command.ml, ocaml, ocamldep, quiet, thread, traverse, use_menhir }
+ocamlfind ocamldep -package ounit2 -package ANSITerminal -modules command.ml > command.ml.depends
+# Target: battle.cmo, tags: { package(ANSITerminal), package(ounit2), byte, compile, extension:cmo, extension:ml, file:battle.cmo, file:battle.ml, implem, ocaml, quiet, thread, traverse, use_menhir }
+ocamlfind ocamlc -c -thread -package ounit2 -package ANSITerminal -o battle.cmo battle.ml
+# Target: command.cmo, tags: { package(ANSITerminal), package(ounit2), byte, compile, extension:cmo, extension:ml, file:command.cmo, file:command.ml, implem, ocaml, quiet, thread, traverse, use_menhir }
+ocamlfind ocamlc -c -thread -package ounit2 -package ANSITerminal -o command.cmo command.ml
+# Target: items.ml.depends, tags: { package(ANSITerminal), package(ounit2), extension:ml, file:items.ml, ocaml, ocamldep, quiet, thread, traverse, use_menhir }
+ocamlfind ocamldep -package ounit2 -package ANSITerminal -modules items.ml > items.ml.depends
+# Target: pkmn.ml.depends, tags: { package(ANSITerminal), package(ounit2), extension:ml, file:pkmn.ml, ocaml, ocamldep, quiet, thread, traverse, use_menhir }
+ocamlfind ocamldep -package ounit2 -package ANSITerminal -modules pkmn.ml > pkmn.ml.depends
+# Target: items.cmo, tags: { package(ANSITerminal), package(ounit2), byte, compile, extension:cmo, extension:ml, file:items.cmo, file:items.ml, implem, ocaml, quiet, thread, traverse, use_menhir }
+ocamlfind ocamlc -c -thread -package ounit2 -package ANSITerminal -o items.cmo items.ml
+# Target: pkmn.cmo, tags: { package(ANSITerminal), package(ounit2), byte, compile, extension:cmo, extension:ml, file:pkmn.cmo, file:pkmn.ml, implem, ocaml, quiet, thread, traverse, use_menhir }
+ocamlfind ocamlc -c -thread -package ounit2 -package ANSITerminal -o pkmn.cmo pkmn.ml
+# Target: main.byte, tags: { package(ANSITerminal), package(ounit2), byte, dont_link_with, extension:byte, file:main.byte, link, ocaml, program, quiet, thread, traverse, use_menhir }
+ocamlfind ocamlc -linkpkg -thread -package ounit2 -package ANSITerminal items.cmo pkmn.cmo battle.cmo command.cmo main.cmo -o main.byte
+# Compilation successful.
