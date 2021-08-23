@@ -5,7 +5,6 @@
 ```bash
 git clone https://github.com/mahin-mac568/Text-Based-Pokemon-Battle.git
 cd Text-Based-Pokemon-Battle
-cd ms3
 ```
 ### 2. Running the game 
 ```
