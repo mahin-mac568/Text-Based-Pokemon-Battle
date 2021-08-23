@@ -12,7 +12,7 @@ cd ms3
 make play
 ```
 ### 3. Read the instructions and play the game. Come back here for further details on in-game objects. 
-```
+
     These are the instructions in the game: 
     
     "The game you are about to play consists of 3 battles. Try your best to be 
@@ -46,4 +46,3 @@ make play
     
     This is some more info on the items: 
     
-```
