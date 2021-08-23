@@ -13,6 +13,7 @@ make play
 ```
 ### 3. Read the instructions and play the game. 
 ### Come back here for further details on in-game objects. 
+<p><br></p>
 
 #### These are the instructions displayed in the game: 
     
