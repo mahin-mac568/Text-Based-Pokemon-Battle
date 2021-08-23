@@ -39,7 +39,7 @@ make play
 #### That's all. Good luck!"
 <p><br></p>
 
-#### This is some more info on the items: 
+#### Here's some more info on the items: 
 
 #### Potions:
 - quick_potion: recovers ```1``` health point for your current pokemon. 
