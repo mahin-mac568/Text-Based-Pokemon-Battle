@@ -15,29 +15,21 @@ make play
 
 #### These are the instructions in the game: 
     
-##### "The game you are about to play consists of 3 battles. Try your best to be 
-##### the very best pokemon trainer! Here's some things you should know: 
+##### "The game you are about to play consists of 3 battles. Try your best to be the very best pokemon trainer! Here's some things you should know: 
 
-##### Each battle is harder than the last. The first battle is the easiest. Health
-##### is lower, and the CPU uses random attacks. The second battle has more 
-##### health, increasing your chances of losing. The third battle features a CPU 
-##### that always chooses the move that does the most damage to your pokemon. This
-##### will be your biggest challenge.
+##### Each battle is harder than the last. The first battle is the easiest. Health is lower, and the CPU uses random attacks. The second battle has 
+##### more health, increasing your chances of losing. The third battle features a CPU that always chooses the move that does the most damage to your 
+##### pokemon. This will be your biggest challenge.
 
-##### In this game, you can either attack or use items. You can repeat attacks as
-##### much as you like. You can use items, but they expire after use. You will get
-##### three items at the beginning of each battle: one poison, one potion, and one
-##### boost.
+##### In this game, you can either attack or use items. You can repeat attacks as much as you like. You can use items, but they expire after use. 
+##### You will get three items at the beginning of each battle: one poison, one potion, and one boost.
 
-##### To use an available attack, type "attack [attack name here]"
+#### To use an available attack, type "attack [attack name here]"
 
-##### You can also use items! Items are in the order of [potion, poison, boost].
-
-##### To use a potion to heal, type "use potion [potion name here]"
-
-##### To use a poison against your opponent, type "use poison [poison name here]"
-
-##### To use a boost, type "use boost [boost name here]"
+#### You can also use items! Items are in the order of [potion, poison, boost].
+- To use a potion to heal, type "use potion [potion name here]"
+- To use a poison against your opponent, type "use poison [poison name here]"
+- To use a boost, type "use boost [boost name here]"
 
 ##### Lastly, you can quit by typing "forfeit", but we don't like quitters.
 
