@@ -22,7 +22,8 @@ more health, increasing your chances of losing. The third battle features a CPU 
 pokemon. This will be your biggest challenge. In this game, you can either attack or use items. You can repeat attacks as much as you like. 
 You can use items, but they expire after use. You will get three items at the beginning of each battle: one poison, one potion, and one boost.
 
-#### To use an available attack, type ```attack [attack name here]```
+#### To use an available attack, 
+- Type ```attack [attack name here]```
 
 #### You can also use items! Items are in the order of [potion, poison, boost].
 - To use a potion to heal, type ```use potion [potion name here]```
