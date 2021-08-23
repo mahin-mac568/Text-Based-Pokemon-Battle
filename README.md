@@ -23,8 +23,9 @@ make play
     <br> 
    In this game, you can either attack or use items. You can repeat attacks as much as you like. <br> 
     <br> 
-   You can use items, but they expire after use. You will get three items at the beginning of each battle: one poison, one potion, and one boost.</p>
-    <br> 
+   You can use items, but they expire after use. You will get three items at the beginning of each battle: one poison, one potion, and one boost.
+    <br> </p>
+    
 #### To use an available attack, 
 - Type ```attack [attack name here]```
 
