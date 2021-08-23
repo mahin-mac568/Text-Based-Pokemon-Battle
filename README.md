@@ -33,7 +33,7 @@ You can use items, but they expire after use. You will get three items at the be
 ##### Lastly, you can quit by typing ```forfeit```, but we don't like quitters.
 
 ##### That's all. Good luck!"
-
+<p><br></p>
 
 #### This is some more info on the items: 
 ##### Poisons:
