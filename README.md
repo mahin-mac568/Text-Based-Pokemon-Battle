@@ -19,10 +19,7 @@ make play
     
 <p>The game you are about to play consists of 3 battles. Try your best to be the very best pokemon trainer!<br>
     <br> 
-   Here's some things you should know: <br>
-   Each battle is harder than the last. The first battle is the easiest. Your opponent's health is lower, and the CPU uses random attacks. The second 
-   battle has more health, increasing your chances of losing. The third battle features a CPU that always chooses the move that does the most damage to 
-   your pokemon. This will be your biggest challenge. <br>
+   Here's some things you should know: Each battle is harder than the last. The first battle is the easiest. Your opponent's health is lower, and the CPU uses random attacks. The second battle has more health, increasing your chances of losing. The third battle features a CPU that always chooses the move that does the most damage to your pokemon. This will be your biggest challenge. <br>
     <br> 
    In this game, you can either attack or use items. You can repeat attacks as much as you like. <br> 
     <br> 
