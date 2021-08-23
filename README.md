@@ -11,9 +11,11 @@ cd ms3
 ```
 make play
 ```
-### 3. Read the instructions and play the game. 
+### 3. Read the instructions and play the game. Come back here for further details on in-game objects. 
 ```
-    The game you are about to play consists of 3 battles. Try your best to be 
+    These are the instructions in the game: 
+    
+    "The game you are about to play consists of 3 battles. Try your best to be 
     the very best pokemon trainer! Here's some things you should know: 
 
     Each battle is harder than the last. The first battle is the easiest. Health
@@ -37,7 +39,11 @@ make play
 
     To use a boost, type "use boost [boost name here]"
 
-  Lastly, you can quit by typing "forfeit", but we don't like quitters.
+    Lastly, you can quit by typing "forfeit", but we don't like quitters.
 
-  That's all. Good luck!
+    That's all. Good luck!"
+    
+    
+    This is some more info on the items: 
+    
 ```
