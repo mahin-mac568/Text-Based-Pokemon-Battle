@@ -11,9 +11,10 @@ cd ms3
 ```
 make play
 ```
-### 3. Read the instructions and play the game. Come back here for further details on in-game objects. 
+### 3. Read the instructions and play the game. 
+### Come back here for further details on in-game objects. 
 
-#### These are the instructions in the game: 
+#### These are the instructions displayed in the game: 
     
 The game you are about to play consists of 3 battles. Try your best to be the very best pokemon trainer! Here's some things you should know: 
 Each battle is harder than the last. The first battle is the easiest. Health is lower, and the CPU uses random attacks. The second battle has 
