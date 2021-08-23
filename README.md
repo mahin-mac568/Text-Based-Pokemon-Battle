@@ -42,19 +42,19 @@ make play
 #### This is some more info on the items: 
 
 #### Potions:
-- quick_potion: recovers 1 health point for your current pokemon. 
-- super_potion: recovers 2 health points for your current pokemon. 
-- hyper_potion: recovers 3 health points for your current pokemon. 
-- max_potion: recovers 4 health points for your current pokemon. 
+- quick_potion: recovers ```1``` health point for your current pokemon. 
+- super_potion: recovers ```2``` health points for your current pokemon. 
+- hyper_potion: recovers ```3``` health points for your current pokemon. 
+- max_potion: recovers ```4``` health points for your current pokemon. 
 
 #### Poisons:
-- toxin: deals 1 damage point against the opponent's current pokemon. 
-- super_toxin: deals 1.5 damage points against the opponent's current pokemon.
-- hyper_toxin: deals 2 damage points against the opponent's current pokemon.
-- max_toxin: deals 3 damage points against the opponent's current pokemon. 
+- toxin: deals ```1``` damage point against the opponent's current pokemon. 
+- super_toxin: deals ```1.5``` damage points against the opponent's current pokemon.
+- hyper_toxin: deals ```2``` damage points against the opponent's current pokemon.
+- max_toxin: deals ```3``` damage points against the opponent's current pokemon. 
 
 #### Boosts:
-- quick_boost: gives you a 1.3x boost on the damage that your moves deal on the current opposing pokemon. 
-- super_boost: gives you a 1.5x boost on the damage that your moves deal on the current opposing pokemon. 
-- hyper_boost: gives you a 1.8x boost on the damage that your moves deal on the current opposing pokemon. 
-- max_boost: gives you a 2x boost on the damage that your moves deal on the current opposing pokemon. 
+- quick_boost: gives you a ```1.3x``` boost on the damage that your moves deal on the current opposing pokemon. 
+- super_boost: gives you a ```1.5x``` boost on the damage that your moves deal on the current opposing pokemon. 
+- hyper_boost: gives you a ```1.8x``` boost on the damage that your moves deal on the current opposing pokemon. 
+- max_boost: gives you a ```2x``` boost on the damage that your moves deal on the current opposing pokemon. 
