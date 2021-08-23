@@ -34,9 +34,9 @@ make play
 - To use a poison against your opponent, type ```use poison [poison name here]```
 - To use a boost, type ```use boost [boost name here]```
 
-##### Lastly, you can quit by typing ```forfeit```, but we don't like quitters.
+#### Lastly, you can quit by typing ```forfeit```, but we don't like quitters.
 
-##### That's all. Good luck!"
+#### That's all. Good luck!"
 <p><br></p>
 
 #### This is some more info on the items: 
