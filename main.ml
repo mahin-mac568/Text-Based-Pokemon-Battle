@@ -179,7 +179,7 @@ let play_all_3_games () =
       | Won ->begin  match play_from_start (final_game ()) with
           | Won -> 
             print_endline
-              "Congratulations on becoming the new Pokemon Chanmpion!!"
+              "Congratulations on becoming the new Pokemon Champion!!"
           | Lost -> 
             print_endline"You came so close, you can't give up now!"
           | _ -> failwith "how'd this happen?"

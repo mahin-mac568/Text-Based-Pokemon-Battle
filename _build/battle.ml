@@ -147,7 +147,7 @@ let init_battle diff =
         p1_pkmn_in_battle = p1_pokemon |> List.hd;   
         p1_current_health = 8.0; 
         p1_current_moveset = create_moves (p1_pokemon |> List.hd); 
-        p1_items = [];
+        p1_items = p1_random_items ();
         p1_boost_mult = 1.0;
 
         p2_pkmn_alive = p2_pokemon; 
@@ -166,7 +166,7 @@ let init_battle diff =
         p1_pkmn_in_battle = p1_pokemon |> List.hd;   
         p1_current_health = 8.0; 
         p1_current_moveset = create_moves (p1_pokemon |> List.hd); 
-        p1_items = [];
+        p1_items = p1_random_items ();
         p1_boost_mult = 1.0;
 
         p2_pkmn_alive = p2_pokemon; 
@@ -242,13 +242,13 @@ let new_moves_p2 batt =
   batt.p2_current_moveset <- create_moves batt.p2_pkmn_in_battle
 
 let my_pokemon_died batt = match batt.p1_pkmn_alive with
-  | [] -> print_endline "\nYour pokemon has died. You have no pokemon left"
-  | hd :: tl -> print_endline "\nYour pokemon has died."; 
+  | [] -> print_endline "\nYour pokemon has fainted. You have no pokemon left"
+  | hd :: tl -> print_endline "\nYour pokemon has fainted."; 
     color_printer ME ("You sent out " ^ hd.name)
 
 let cpu_pokemon_died batt = match batt.p2_pkmn_alive with
-  | [] -> print_endline "\nTheir pokemon has died. They have no pokemon left"
-  | hd :: tl -> print_endline "\nTheir pokemon has died."; 
+  | [] -> print_endline "\nTheir pokemon has fainted. They have no pokemon left"
+  | hd :: tl -> print_endline "\nTheir pokemon has fainted."; 
     color_printer CPU ("They sent out " ^ hd.name)
 
 let update_pkmn_p1 batt = 
@@ -277,11 +277,11 @@ let acceptable_attack batt user_inp =
   List.exists acceptable_condition batt.p1_current_moveset
 
 let remove_potion batt potion = 
-let condition item = match item with
-  | Potion a -> potion <> a
-  | _ -> true
-in
-batt.p1_items <- List.filter (condition) batt.p1_items
+  let condition item = match item with
+    | Potion a -> potion <> a
+    | _ -> true
+  in
+  batt.p1_items <- List.filter (condition) batt.p1_items
 
 let remove_poison batt poison = 
   let condition item = match item with
