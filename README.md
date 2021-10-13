@@ -13,8 +13,9 @@ make play
 ### 3. Read the instructions and play the game. 
 ### Come back here for further details on in-game objects. 
 <p><br></p>
+<p><br></p>
 
-#### These are the instructions displayed in the game: 
+### These are the instructions displayed in the game: 
     
 <p>The game you are about to play consists of 3 battles. Try your best to be the very best pokemon trainer!<br>
     <br> 
